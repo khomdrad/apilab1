@@ -30,7 +30,7 @@ func getAddressBookAll(w http.ResponseWriter, r *http.Request) {
 		Firstname: "Khomdrad",
 		Lastname:  "Boontae",
 		Code:      19243,
-		Phone:     "66-85-811-4799",
+		Phone:     "66-xx-xxx-xxxx",
 	}
 	json.NewEncoder(w).Encode(addBook) // (1)
 }
